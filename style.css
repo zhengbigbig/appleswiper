@@ -1,0 +1,107 @@
+*{
+    padding:0;margin:0;
+
+}
+li{list-style: none;}
+body{background-color:#F2F2F2;}
+a{text-decoration: none;color:#0196e3;}
+.head > h2 > a:hover{
+    border-bottom:2px solid #0196e3;
+}
+.head > h1{
+    font-family: "Myriad Pro",Arial,Helvetica,sans-serif;
+    font-size: 42px;
+    font-weight: normal;
+    padding: 30px 35px 0 35px;
+    margin-top:20px;
+}
+.head > .fubiao{
+    font-family: "Myriad Pro",Arial,Helvetica,sans-serif;
+    font-size: 42px;
+    font-weight:bold;
+}
+.head > h2{
+    font-family: "Myriad Pro",Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 17px;
+}
+
+.head{
+    text-align:center;
+    width:920px;
+    margin-left:auto;
+    margin-right:auto;
+}
+main{
+    margin-top:30px;
+    width:920px;
+    border-radius:10px;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    box-shadow:0px 0px 4px 1px rgba(202, 196, 196, 0.72);
+}
+main > .imagesAndicons{
+    width:920px;
+    height:400px;
+    overflow:hidden;
+
+}
+main >  .imagesAndicons > .images{display:flex;transition:all 1s;}
+
+main  >  .icons{
+    box-sizing:border-box;
+    width:920px;
+    display:flex;
+    justify-content:center;
+    background-color:#F2F2F2;
+    border-top:1px solid rgba(202, 196, 196, 0.72);
+    border-bottom: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+
+}
+main  >  .icons > li{
+    width:60px;
+    height:45px;
+    border-right:1px solid rgba(202, 196, 196, 0.5);
+}
+main  >  .icons > li:first-child{
+    border-left:1px solid rgba(202, 196, 196, 0.5);
+}
+
+main >  .icons > li > span {
+    width:100%;
+    height:100%;
+    vertical-align: middle;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+main > .icons > li > span:hover{
+    background-color:#FFFFFF;
+}
+main > .icons > li > span.active{
+    background: radial-gradient(ellipse at center, rgba(231,231,231,1) 0%, rgba(231,231,231,1) 33%, rgba(117,117,117,1) 100%);
+}
+footer{
+    text-align:center;
+    margin-top:20px;
+}
+footer > p:nth-child(1){
+    color: #444444;
+    font-size: 13px;
+    background: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+}
+footer > p:nth-child(2){
+    color: #444444;
+    font-size: 10px;
+    background: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+}
